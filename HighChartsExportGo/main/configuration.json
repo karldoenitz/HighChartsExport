@@ -1,0 +1,9 @@
+{
+  "Server": {
+    "Host": "0.0.0.0",
+    "Port": 8888
+  },
+  "Phantom": {
+    "Command": "./phantomjs/phantomjs_linux ./js/highcharts-convert.js -infile %s.json -outfile %s.png -scale 2.5 -width 800 -constr Chart -resources ./js/highcharts.js,./js/jquery.js"
+  }
+}
